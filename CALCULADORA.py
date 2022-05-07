@@ -26,14 +26,7 @@ while True:
         num2=float(input("Ingrese otro numero:"))
         result=str(num1*num2)
         print("Respuesta: "+result)
-    elif teclado=="/":
-        try:
-            num1=float(input("Ingrese un numero:"))
-            num2=float(input("Ingrese otro numero:"))
-            result=str(num1/num2)
-            print("Respuesta: "+result)
-        except ZeroDivisionError:
-            print("Math Error: Division por 0")
+
 
     else:
         print("Opcion inválida")
