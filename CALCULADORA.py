@@ -34,13 +34,6 @@ while True:
             print("Respuesta: "+result)
         except ZeroDivisionError:
             print("Math Error: Division por 0")
-    elif teclado=="%":
-        try:
-            num1=float(input("Ingrese un numero:"))
-            num2=float(input("Ingrese otro numero:"))
-            result=str(int(num1%num2))
-            print("Respuesta: "+result)
-        except ZeroDivisionError:
-            print("Math Error: Division por 0")
+
     else:
         print("Opcion inválida")
