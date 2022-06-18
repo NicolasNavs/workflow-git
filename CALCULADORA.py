@@ -1,7 +1,7 @@
 #Calculadora básica en Python
 while True:
     print("""Opciones
-    Ingrese '+' para sumar dos numeros
+    Ingrese '+' para sumar 2 numeros
     Ingrese '-' para restar dos numeros
     Ingrese '*' para multiplicar dos numeros
     Ingrese '/' para dividir dos numeros
